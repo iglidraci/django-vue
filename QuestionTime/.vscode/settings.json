@@ -1,0 +1,16 @@
+{
+    "python.pythonPath": "C:\\Users\\User\\Anaconda3\\envs\\django_vue\\python.exe",
+    "editor.fontSize": 18,
+    "window.zoomLevel": 1.5,
+    "vetur.format.options.tabSize": 2,
+    "eslint.validate": [
+        "javascript",
+        "html",
+        "vue"
+      ],
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll.stylelint": true
+      },
+      "vetur.validation.template": false
+}

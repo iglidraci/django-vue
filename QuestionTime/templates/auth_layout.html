@@ -1,0 +1,19 @@
+{%extends "base.html"%} {%block style%}
+<style>
+    .login-form-container {
+        width: 300px;
+        margin: auto;
+    }
+    
+    .registration-form-container {
+        width: 400px;
+        margin: auto;
+    }
+</style>
+{%endblock%} {%block content%}
+<div class="outer-area">
+    <div class="auth-box text-center">
+        {% block auth %} {% endblock %}
+    </div>
+</div>
+{%endblock%}
